@@ -4,7 +4,7 @@
 
 ChengQiang (Chinese: 城墙/城牆, with its literal meaning as "the City Wall", while the extended meaning is "the Wall of City University of Hong Kong"), is a forum platform developed with Flarum, hoping to create an atmosphere of friendly discussion, entertainment and sharing of knowledge. Its predecessor is called "ChengQiang Tree Hole" (Chinese: 城墙树洞/城牆樹洞), a WeChat official account filtering and publishing university students' daily comments.
 
-ChengQiang Forum was developed in 2020, under the supervision and assistance by The 15th Executive Committee of the Chinese Students and Scholars Association of City University of Hong Kong Undergraduate (CSSAUG). The main technical contributors of this project include @xz-cs and @xrr-233. The original code of this project can be found at https://github.com/xz-cs/ChengQiang.
+ChengQiang Forum was developed in 2020, under the supervision and assistance by The 15th Executive Committee of the Chinese Students and Scholars Association of City University of Hong Kong Undergraduate (CSSAUG). The main technical contributors of this project include [@xz-cs] and [@xrr-233]. The original code of this project can be found at https://github.com/xz-cs/ChengQiang.
 
 After the opening of the website in 2020, it went smoothly through the following 3 years. With its well-defined tag and interesting UI design, many active students entered this community and provided useful academic information for the convenience of later students' study path.
 
@@ -13,6 +13,10 @@ However, due to later poor docking work management of later administration and l
 We should admit that it was our negligence that caused the current situation. Recalling this painful experience, we now dedicate to recover the original ecosystem of the forum by trying to re-establish and engage with new administration team, strengthening the aspect of development, management, and publicity in the next stage.
 
 Currently, we have started the recovering work. After it is finished, we will try our best to escalate our influence, and the communication channel to the administration will be opened then. Hope our endeavour can finally leave a fruitful community.
+
+## Extensions
+
+* Flarum Simplified Chinese Language Pack https://github.com/flarum-lang/chinese-simplified
 
 ## Acknowledgement
 

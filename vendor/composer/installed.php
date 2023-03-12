@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v1.7.0',
-        'version' => '1.7.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '2f5dae7cedf15a7f525e9d288538d2d49109dd6f',
         'name' => 'flarum/flarum',
         'dev' => true,
     ),
@@ -127,6 +127,12 @@
             'reference' => '0dbf5d78455d4d6a41d186da50adc1122ec066f4',
             'dev_requirement' => false,
         ),
+        'ffans/lang-simplified-chinese' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
         'fig/http-message-util' => array(
             'pretty_version' => '1.1.5',
             'version' => '1.1.5.0',
@@ -143,6 +149,15 @@
             'install_path' => __DIR__ . '/../filp/whoops',
             'aliases' => array(),
             'reference' => 'e864ac957acd66e1565f25efda61e37791a5db0b',
+            'dev_requirement' => false,
+        ),
+        'flarum-lang/chinese-simplified' => array(
+            'pretty_version' => 'v1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'flarum-extension',
+            'install_path' => __DIR__ . '/../flarum-lang/chinese-simplified',
+            'aliases' => array(),
+            'reference' => '692822a377e2309ea877d60cee61aa9af92918dc',
             'dev_requirement' => false,
         ),
         'flarum/approval' => array(
@@ -191,12 +206,12 @@
             'dev_requirement' => false,
         ),
         'flarum/flarum' => array(
-            'pretty_version' => 'v1.7.0',
-            'version' => '1.7.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '2f5dae7cedf15a7f525e9d288538d2d49109dd6f',
             'dev_requirement' => false,
         ),
         'flarum/lang-english' => array(
@@ -631,6 +646,12 @@
             'reference' => 'ff6248ea87a9f116e78edd6002e39e5128a0d4dd',
             'dev_requirement' => false,
         ),
+        'littlegolden/flarum-lang-simplified-chinese' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
         'matthiasmullie/minify' => array(
             'pretty_version' => '1.3.70',
             'version' => '1.3.70.0',
@@ -859,8 +880,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
